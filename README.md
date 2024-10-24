@@ -1,4 +1,4 @@
-# This repository contains the source code for an Android application built with Kotlin, which communicates with a backend API developed using Spring Boot.
+ This repository contains the source code for an Android application built with Kotlin, which communicates with a backend API developed using Spring Boot.
 
 # Features
 
