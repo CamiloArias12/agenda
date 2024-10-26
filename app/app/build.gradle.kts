@@ -53,10 +53,11 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.navigation.compose)
     val composeBom = platform("androidx.compose:compose-bom:2024.09.03")
     implementation("androidx.compose:compose-bom:2024.10.00")
     androidTestImplementation("androidx.compose:compose-bom:2024.10.00")
-
+    implementation ("com.google.code.gson:gson:2.10.1")
     implementation(libs.material3)
     implementation(libs.androidx.material)
     implementation(libs.androidx.foundation)
@@ -66,8 +67,7 @@ dependencies {
     implementation(libs.androidx.material.icons.core)
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.adaptive)
-
-
+    implementation(libs.okhttp)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
